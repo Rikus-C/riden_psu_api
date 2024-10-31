@@ -1,0 +1,30 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "type": "shell",
+            "command": "python3 ./build/pro.py build"
+        },
+        {
+            "label": "make",
+            "type": "shell",
+            "command": "python3 ./build/pro.py make"
+        },
+        {
+            "label": "clean",
+            "type": "shell",
+            "command": "python3 ./build/pro.py clean"
+        },
+        {
+            "label": "flash",
+            "type": "shell",
+            "command": "python3 ./build/pro.py run"
+        },
+        {
+            "label": "lazygit",
+            "type": "shell",
+            "command": "lazygit"
+        }
+    ]
+}
